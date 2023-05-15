@@ -4,9 +4,9 @@ import {  deleteUserController, updateUserController } from "../src/controller/u
 
 
 
-//Updated Blog Post Controller
-describe("UpdatedBlogPostController", () => {
-  test("call UpdateBlogPostController with the correct data", async () => {
+//Updated User  Controller
+describe("UpdatedUserController", () => {
+  test("call UpdateUserController with the correct data", async () => {
     const mockRequest = {
       params: {
         id: "1377454d-6df3-4395-994c-a8da0e20d3dd", // replace with the desired ID
