@@ -1,0 +1,46 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "nodemon": "^2.0.22",
+    "pg": "^8.10.0",
+    "sequelize": "^6.31.1",
+    "uuid": "^9.0.0"
+  },
+  "name": "bloggingplatform",
+  "version": "1.0.0",
+  "description": "\"Blogging Platform\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meshvishah10/bloggingPlatform.git"
+  },
+  "author": "\"Meshvi Shah\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Meshvishah10/bloggingPlatform/issues"
+  },
+  "homepage": "https://github.com/Meshvishah10/bloggingPlatform#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/register": "^7.21.0",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testRegex": "(/tests/.*|(\\.|/)(test|spec))\\.js$",
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  }
+}
