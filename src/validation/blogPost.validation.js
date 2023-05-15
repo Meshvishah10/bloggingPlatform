@@ -2,7 +2,7 @@ import { resType } from "../response/res.types.js";
 
 export async function blogPostValidator(req, res, next) {
   const result = req.body;
-  console.log(result);
+  //console.log(result);
   if (
     !result.heading ||
     !result.detail ||

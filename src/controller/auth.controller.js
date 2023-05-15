@@ -3,7 +3,7 @@ import { getUserByEmailService } from "../service/user.service.js";
 import { tokenGen } from "../helper/tokenGen.helper.js";
 import { passwordBcrypt } from "../helper/passwordBcrypt.helper.js";
 
-//Login Password Controllet
+//Login Password Controller
 export async function loginController(req, res) {
   const { email, password } = req.body;
   const data = await getUserByEmailService({ email });

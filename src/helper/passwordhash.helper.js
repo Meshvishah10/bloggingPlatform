@@ -2,6 +2,7 @@ import { config } from "dotenv";
 import bcrypt from "bcrypt";
 const saltRounds = parseInt(process.env.SALT);
 
+//Hash Password Generator Function
 export async function passwordHash(password) {
   try {
     const salt = await bcrypt.genSalt(saltRounds);

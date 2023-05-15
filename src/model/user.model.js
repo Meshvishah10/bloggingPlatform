@@ -1,4 +1,4 @@
-import { Sequelize, DataTypes, UUIDV4 } from "sequelize";
+import { DataTypes, UUIDV4 } from "sequelize";
 import { connection } from "../config/db.js";
 
 const UserSchema = connection.define("user", {

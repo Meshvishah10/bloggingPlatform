@@ -10,7 +10,7 @@ router(app);
 app.listen(process.env.SPORT, () => {
   console.log(`Application is listening at port ${process.env.SPORT}`);
 });
-app.get("/", (req, res) => {
-  res.json("messhvi");
-});
+// app.get("/", (req, res) => {
+//   res.json("messhvi");
+// });
 

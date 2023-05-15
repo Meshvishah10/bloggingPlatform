@@ -7,9 +7,9 @@ import { BlogPostRouter } from "./blogPost.router.js";
 import { UserRouter } from "./user.router.js";
 
 const router = (app) => {
-  app.use("/user", UserRouter); //User
-  app.use("/posts",auth, BlogPostRouter);
-  app.use("/auth",AuthRouter)
+  app.use("/user", UserRouter);                          //User 
+  app.use("/posts",auth, BlogPostRouter);                //Blog Post 
+  app.use("/auth",AuthRouter)                            //Login
 };
 
 export { router };

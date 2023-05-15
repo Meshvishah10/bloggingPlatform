@@ -1,6 +1,6 @@
 import bcrypt from "bcrypt";
-import { config } from "dotenv";
-const saltRounds = parseInt(process.env.SALT);
+
+//Password Bcrypt Function
 export async function passwordBcrypt(password, hash) {
   try {
     const value = await bcrypt.compare(password, hash);
